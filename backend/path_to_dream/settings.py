@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'accounts',
     'dreams',
     'rest_framework',
+    'steps_to_dream',
 ]
 
 MIDDLEWARE = [
