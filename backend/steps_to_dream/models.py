@@ -8,7 +8,6 @@ class Step(models.Model):
     description = models.TextField()
     minutes_needed_per_week = models.IntegerField()
     minutes_done_per_week = models.IntegerField()
-    activity_archive = models.TextField()
 
     def __str__(self):
         return self.title
