@@ -9,6 +9,7 @@ class Dream(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     time_complexity = models.IntegerField(default=0)
     effort_complexity = models.IntegerField(default=0)
+    completion_percentage = models.IntegerField(default=0)
 
     def __str__(self):
         return self.title
